@@ -1,6 +1,13 @@
+//importamos express
 import express from 'express';
+
+//se crea la aplicación
 const app = express ();
+
+//se define el puerto
 const PORT = process.env.PORT || 3012
+
+//se importan las rutas
 import router from './routes/routes.js';
 
 
